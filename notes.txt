@@ -1,0 +1,154 @@
+
+
+set up 
+-------
+python 3.11
+vs code 
+git
+
+
+virtual enviornment 
+---------------------------
+
+step1: create environment
+ python3 -m venv .venv
+
+step2: activating your environment
+.\.venv\Scripts\activate ( windows)
+
+./.venv/bin/activate ( linux /mac )
+
+
+
+
+mcp foundation 
+------------------
+
+
+method1:
+running server.py  and then 
+running client.py 
+
+python server.py 
+
+
+
+method2:
+main.py ( server)
+mcp inspector  ( client ) 
+
+
+
+
+
+
+without streaming :
+------------------------------
+user waits and gets the response 
+
+
+with streaming 
+----------------------
+response stats immediately and you see  the live response  
+- realt ime step by step communication over long running
+
+
+
+
+openai ( org name)  
+    |
+    |
+chatgpt.com ( app)
+    |
+    |
+gpt llm
+
+
+
+anthropic ( org name)
+    |
+    |
+    claude ( app like chatgpt)
+    |
+    |
+    opus,sonnet,haiku (llms)
+
+
+
+#######################################
+approach1:
+using exsiting mcp servers and integrate in claude/openai 
+Eg: github mcp server, sqlite mcp server 
+######################################
+approach2: implementing programatically
+accessing mcp server from the program directly 
+- we are NOT implemtning tool logic here ..
+- we are accessing the existing tools directly 
+
+###########################################
+approach3: creating own own mcp server for specific requirement and 
+                            mcp client to connect to server 
+
+- we implement our own mcp servers with our functionality 
+
+
+
+
+
+
+
+
+
+############################
+## linkedin posting
+############################
+
+1. using claude 
+
+2. programmatically posting articile on a a topic 
+
+
+
+1. using claude 
+---------------------
+
+
+
+
+
+
+
+
+
+
+step1: create folder: 18_mcp_linkedin
+
+
+step2: cd 18_mcp_linkedin 
+
+step3: uv init 
+
+step4: uv venv 
+
+step5: .\.venv\Scripts\activate 
+
+step6:  create requirements.txt 
+
+fastmcp
+python-dotenv
+mcp[cli]
+
+step7:  uv add -r requirements.txt 
+
+
+
+
+langchain sqlite mcp example 
+-------------------------------
+dependent libraries 
+
+
+created OPENAI_API_KEY 
+
+
+sqlite mcp server 
